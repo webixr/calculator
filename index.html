@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculator</title>
+    <link href="/dist/output.css" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <div class="w-[280px] h-96 grid grid-cols-4 mx-auto bg-slate-500">
+        <div class="view col-span-4 h-20 px-4 text-2xl flex items-center overflow-hidden">00</div>
+        <div class="col-span-4 flex">
+            <button value="ac" class="w-full hover:bg-slate-600">ac</button>
+            <button value="del" class="w-full hover:bg-slate-600">del</button>
+            <button value="/" class="w-full hover:bg-slate-600">/</button>
+            <button value="*" class="w-full hover:bg-slate-600">*</button>
+        </div>
+        <div class="col-span-4 flex">
+            <button value="7" class="w-full hover:bg-slate-600">7</button>
+            <button value="8" class="w-full hover:bg-slate-600">8</button>
+            <button value="9" class="w-full hover:bg-slate-600">9</button>
+            <button value="-" class="w-full hover:bg-slate-600">-</button>
+        </div>
+        <div class="col-span-4 flex">
+            <button value="4" class="w-full hover:bg-slate-600">4</button>
+            <button value="5" class="w-full hover:bg-slate-600">5</button>
+            <button value="6" class="w-full hover:bg-slate-600">6</button>
+            <button value="+" class="w-full hover:bg-slate-600">+</button>
+        </div>
+        <div class="col-span-4 flex">
+            <button value="1" class="w-full hover:bg-slate-600">1</button>
+            <button value="2" class="w-full hover:bg-slate-600">2</button>
+            <button value="3" class="w-full hover:bg-slate-600">3</button>
+            <button value="=" class="w-full hover:bg-slate-600">=</button>
+        </div>
+        <div class="col-span-4 flex">
+            <button value="0" class="w-3/5 hover:bg-slate-600">0</button>
+            <button value="." class="w-1/5 hover:bg-slate-600">.</button>
+        </div>
+    </div>
+    <script src="./src/main.js"></script>
+</body>
+</html>
